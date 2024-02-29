@@ -25,7 +25,3 @@ The EIP 2612 permit proxy function is included because it's common to approve sp
 
 The Rebase struct and RebaseLibary make it easy to track amounts and shares in a single storage slot. This will limit amounts and shares to 128 bits,
 but if used for token balances, this should be enough for pretty much all tokens that have real use.
-
-## Licence
-
-MIT
